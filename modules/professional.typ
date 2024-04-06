@@ -1,39 +1,46 @@
 #import "../brilliant-CV/template.typ": *
+#import "@preview/fontawesome:0.1.1": *
+
+#let link-icon = super[#fa-arrow-up-right-from-square()]
 
 #cvSection("Professional Experience")
 
 #cvEntry(
-    title: [Director of Data Science],
-    society: [XYZ Corporation],
-    logo: "../src/logos/xyz_corp.png",
-    date: [2020 - Present],
-    location: [San Francisco, CA],
+    title: [Software Developer Internship],
+    society: [Guardsquare],
+    logo: "../src/logos/guardsquare.jpg",
+    date: [July - August 2023 ],
+    location: [Leuven, Belgium],
     description: list(
-      [Lead a team of data scientists and analysts to develop and implement data-driven strategies, develop predictive models and algorithms to support decision-making across the organization],
-      [Collaborate with executive leadership to identify business opportunities and drive growth, implement best practices for data governance, quality, and security],
+      [Mainly worked on improving the error messages thrown by the #link("https://github.com/Guardsquare/proguard-core")[proguard-core #link-icon] open source project.],
+
+[Created an #link("https://github.com/Mouwrice/proguard-core-visualizer")[internal tool #link-icon] to visualize the proguard core reasoning using compose multiplatform.
+],
     ),
-    tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL")
+    tags: ("Java", "Kotlin", "Gradle", "Compose Multiplatform", "Java Bytecode")
 )
 
 #cvEntry(
-    title: [Data Analyst],
-    society: [ABC Company],
-    logo: "../src/logos/abc_company.png",
-    date: [2017 - 2020],
-    location: [New York, NY],
+    title: [Student Software Developer],
+    society: [Stampix],
+    logo: "../src/logos/stampix.png",
+    date: [July 2022],
+    location: [Ghent, Belgium],
     description: list(
-      [Analyze large datasets using SQL and Python, collaborate with cross-functional teams to identify business insights],
-      [Create data visualizations and dashboards using Tableau, develop and maintain data pipelines using AWS],
-    )
+      [Responsible for creating the new shop page for the Stampix mobile application.],
+    ),
+    tags: ("TypeScript", "React Native", "GraphQL", "Full-Stack Development")
 )
 
 #cvEntry(
-    title: [Data Analysis Intern],
+    title: [Student Software Developer],
     society: [PQR Corporation],
-    logo: "../src/logos/pqr_corp.png",
-    date: [Summer 2017],
-    location: [Chicago, IL],
+    logo: "../src/logos/stampix.png",
+    date: [July 2021],
+    location: [Ghent, Belgium],
     description: list(
-      [Assisted with data cleaning, processing, and analysis using Python and Excel, participated in team meetings and contributed to project planning and execution],
-    )
+      [Responsible for adding the ability to buy extra products at the checkout page, both in the frontend and backend of the site.],
+      [Constructed the complete track and trace page for customer orders.]
+    ),
+        tags: ("TypeScript", "React", "Python", "SQL", "Full-Stack Development")
 )

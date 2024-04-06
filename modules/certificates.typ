@@ -3,19 +3,13 @@
 #cvSection("Certificates")
 
 #cvHonor(
-  date: [2022],
-  title: [AWS Certified Security],
-  issuer: [Amazon Web Services (AWS)],
+  date: [2019],
+  title: [Initiator Tennis Coach],
+  issuer: [Sport Vlaanderen]
 )
 
 #cvHonor(
-  date: [2017],
-  title: [Applied Data Science with Python],
-  issuer: [Coursera]
-)
-
-#cvHonor(
-  date: [],
-  title: [SQL Fundamentals Track],
-  issuer: [Datacamp]
+  date: [2018],
+  title: [First Aid Certificate],
+  issuer: [Red Cross (Belgium)]
 )

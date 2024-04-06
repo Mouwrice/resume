@@ -1,58 +1,39 @@
 // NOTICE: Copy this file to your root folder.
 
 /* Personal Information */
-#let firstName = "John"
+#let firstName = "Maurice"
 
-#let lastName = "Doe"
+#let lastName = "Van Wassenhove"
 
 #let personalInfo = (
-  github: "mintyfrankie",
-  phone: "+33 6 12 34 56 78",
-  email: "john.doe@me.org",
-  linkedin: "johndoe",
-  //custom-1: (icon: "", text: "example", link: "https://example.com"),
-  //gitlab: "mintyfrankie",
-  //homepage: "jd.me.org",
-  //orcid: "0000-0000-0000-0000",
-  //researchgate: "John-Doe",
-  //extraInfo: "",
+  github: "Mouwrice",
+  phone: "+32 492 45 01 71",
+  email: "mauricevanwassenhove@fastmail.com",
+  linkedin: "maurice-van-wassenhove",
 )
 
 
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Experienced Data Analyst looking for a full time job starting from now],
-  "en": [Experienced Data Analyst looking for a full time job starting from now],
-  "fr": [Analyste de données expérimenté à la recherche d'un emploi à temps plein disponible dès maintenant],
-  "zh": [具有丰富经验的数据分析师，随时可入职]
+  "": [Master Computer Science Engineering & Bachelor Computer Science (Informatics)],
+  "en": [Master Computer Science Engineering & Bachelor Computer Science (Informatics)],
+  "nl": [Master in Computer Science Engineering & Bachelor in de Informatica],
 )
 
 #let cvFooterInternational = (
   "": "Curriculum vitae",
-  "en": "Curriculum vitae",
-  "fr": "Résumé",
-  "zh": "简历"
 )
 
 #let letterFooterInternational = (
   "": "Cover Letter",
-  "en": "Cover Letter",
-  "fr": "Lettre de motivation",
-  "zh": "申请信"
-)
-
-#let nonLatinOverwriteInfo = (
-  "customFont": "Heiti SC",
-  "firstName": "王道尔",
-  "lastName": "",
-  // submit an issue if you think other variables should be in this array
+  "nl": "Motivatie brief",
 )
 
 /* Layout Setting */
-#let awesomeColor = "skyblue" // Optional: skyblue, red, nephritis, concrete, darknight
+#let awesomeColor = "darknight" // Optional: skyblue, red, nephritis, concrete, darknight
 
-#let profilePhoto = "../src/avatar.png" // Leave blank if profil photo is not needed
+#let profilePhoto = "../src/Maurice_2022_rounded.png" // Leave blank if profil photo is not needed
 
 #let varLanguage = "" // INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
 

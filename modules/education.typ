@@ -3,25 +3,24 @@
 #cvSection("Education")
 
 #cvEntry(
-    title: [Master of Data Science],
-    society: [University of California, Los Angeles],
-    date: [2018 - 2020],
-    location: [USA],
-    logo: "../src/logos/ucla.png",
+    title: [Master Science in Computer Science Engineering],
+    society: [Ghent University],
+    date: [2022 - 2024],
+    location: [Belgium],
+    logo: "../src/logos/ugent.png",
     description: list(
-      [Thesis: Predicting Customer Churn in Telecommunications Industry using Machine Learning Algorithms and Network Analysis],
-      [Course: Big Data Systems and Technologies #hBar() Data Mining and Exploration #hBar() Natural Language Processing]
+      [Thesis: 	Air Drumming: Applied on-device body pose estimation],
+      [Courses: Data Quality #hBar() Big Data Technology #hBar() NoSQL Databases #hBar() Cloud Storage and Computing #hBar() Discrete Algorithms #hBar() Computer Graphics #hBar() Fundamentals of Musical Accoustics and Sonology]
     )
 )
 
 #cvEntry(
-    title: [Bachelors of Science in Computer Science],
-    society: [University of California, Los Angeles],
-    date: [2018 - 2020],
-    location: [USA],
-    logo: "../src/logos/ucla.png",
+    title: [Bachelor of Science in Computer Science (cum laude)],
+    society: [Ghent University],
+    date: [2019 - 2022],
+    location: [Belgium],
+    logo: "../src/logos/ugent.png",
     description: list(
-      [Thesis: Exploring the Use of Machine Learning Algorithms for Predicting Stock Prices: A Comparative Study of Regression and Time-Series Models],
-      [Course: Database Systems #hBar() Computer Networks #hBar() Software Engineering #hBar() Artificial Intelligence]
+      [Minor: Electrotechnique & telecommunications],
     )
 )

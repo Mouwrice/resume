@@ -23,6 +23,7 @@
 
 #let cvFooterInternational = (
   "": "Curriculum vitae",
+  "nl": "Curriculum vitae"
 )
 
 #let letterFooterInternational = (

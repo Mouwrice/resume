@@ -1,36 +1,46 @@
 #import "../brilliant-CV/template.typ": *
+#import "@preview/fontawesome:0.1.1": *
 
-#cvSection("Expérience Professionnelle")
+#let link-icon = super[#fa-arrow-up-right-from-square()]
+
+#cvSection("Professional Experience")
 
 #cvEntry(
-    title: [Directeur de la Science des Données],
-    society: [XYZ Corporation],
-    date: [2020 - Présent],
-    location: [San Francisco, CA],
+    title: [Software Developer Internship],
+    society: [Guardsquare],
+    logo: "../src/logos/guardsquare.jpg",
+    date: [July - August 2023 ],
+    location: [Leuven, Belgium],
     description: list(
-      [Diriger une équipe de scientifiques et d'analystes de données pour développer et mettre en œuvre des stratégies axées sur les données, développer des modèles prédictifs et des algorithmes pour soutenir la prise de décisions dans toute l'organisation],
-      [Collaborer avec la direction pour identifier les opportunités d'affaires et stimuler la croissance, mettre en œuvre les meilleures pratiques en matière de gouvernance, de qualité et de sécurité des données],
-    )
+      [Mainly worked on improving the error messages thrown by the #link("https://github.com/Guardsquare/proguard-core")[proguard-core #link-icon] open source project.],
+
+[Created an #link("https://github.com/Mouwrice/proguard-core-visualizer")[internal tool #link-icon] to visualize the proguard core reasoning using compose multiplatform.
+],
+    ),
+    tags: ("Java", "Kotlin", "Gradle", "Compose Multiplatform", "Java Bytecode")
 )
 
 #cvEntry(
-    title: [Analyste de Données],
-    society: [ABC Company],
-    date: [2017 - 2020],
-    location: [New York, NY],
+    title: [Student Software Developer],
+    society: [Stampix],
+    logo: "../src/logos/stampix.png",
+    date: [July 2022],
+    location: [Ghent, Belgium],
     description: list(
-      [Analyser de grands ensembles de données à l'aide de SQL et Python, collaborer avec des équipes interfonctionnelles pour identifier des insights métier],
-      [Créer des visualisations de données et des tableaux de bord à l'aide de Tableau, développer et maintenir des pipelines de données à l'aide d'AWS],
-    )
+      [Responsible for creating the new shop page for the Stampix mobile application.],
+    ),
+    tags: ("TypeScript", "React Native", "GraphQL", "Full-Stack Development")
 )
 
 #cvEntry(
-    title: [Stagiaire en Analyse de Données],
+    title: [Student Software Developer],
     society: [PQR Corporation],
-    date: [été 2017],
-    location: [Chicago, IL],
+    logo: "../src/logos/stampix.png",
+    date: [July 2021],
+    location: [Ghent, Belgium],
     description: list(
-      [Aider à la préparation, au traitement et à l'analyse de données à l'aide de Python et Excel, participer aux réunions d'équipe et contribuer à la planification et à l'exécution de projets],
-      [Développer des visualisations et des rapports de données pour communiquer des insights aux parties prenantes, collaborer avec d'autres stagiaires et membres de l'équipe pour mener à bien les projets dans les délais impartis et avec une grande qualité],
-    )
+      [Responsible for adding the ability to buy extra products at the checkout page, both in the frontend and backend of the site.],
+      [Constructed the complete track and trace page for customer orders.]
+    ),
+        tags: ("TypeScript", "React", "Python", "SQL", "Full-Stack Development")
 )

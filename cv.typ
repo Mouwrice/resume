@@ -2,6 +2,7 @@
 #show: layout
 
 #cvHeader(hasPhoto: true, align: left)
+  #autoImport("about_me")
   #autoImport("education")
   #autoImport("professional")
   #autoImport("projects")

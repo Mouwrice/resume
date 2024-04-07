@@ -1,25 +1,16 @@
 #import "../brilliant-CV/template.typ": *
 
-#cvSection("Projets & Associations")
+#cvSection("Projects")
 
 #cvEntry(
-  title: [Stagiaire en Analyse de Données],
-  society: [XYZ Corporation],
-  date: [été 2020],
-  location: [San Francisco, CA],
+  title: [REST-API using Rust, OpenAPI and Postgres],
+  society: [Personal Group Project],
+  date: [Present],
+  location: [Ghent, Belgium],
   description: list(
-    [Aider à la préparation, au traitement et à l'analyse de données à l'aide de Python et Excel],
-    [Développer des visualisations et des rapports de données pour communiquer des insights aux parties prenantes],
-  )
-)
-
-#cvEntry(
-  title: [Analyste de Données Bénévole],
-  society: [ABC Organisation à But Non Lucratif],
-  date: [2019 - Présent],
-  location: [New York, NY],
-  description: list(
-    [Analyser les données de donateurs et de collecte de fonds pour identifier les tendances et les opportunités de croissance],
-    [Créer des visualisations de données et des tableaux de bord pour communiquer des insights au conseil d'administration],
+    [A project I am quite passionate about, which builds the backend for a mobile- and web application. The application is currently a master thesis project on facilitating routines and planning for children with an autism spectrum disorder (ASD) and their parents or caregivers.],
+    [The web api is built using Rust and the Poem OpenAPI web framework, leveraging the power of Rust to build a REST-API that is conform to the OpenAPI specification.],
+    [Using Postgres and Sqlx for SQL Database migrations and compile-time checked queries.],
+    [As the project requires storing sensitive data, we built the authentication and authorization schemes following the OWASP Foundation recommendations.]
   )
 )

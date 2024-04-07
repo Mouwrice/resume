@@ -16,8 +16,7 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "": [Master Computer Science Engineering & Bachelor Computer Science (Informatics)],
-  "en": [Master Computer Science Engineering & Bachelor Computer Science (Informatics)],
+  "": [Master of Science in Computer Science Engineering & Bachelor of Science in Computer Science],
   "nl": [Master in Computer Science Engineering & Bachelor in de Informatica],
 )
 

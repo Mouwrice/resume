@@ -3,10 +3,10 @@
 #cvSection("Education")
 
 #cvEntry(
-    title: [Master Science in Computer Science Engineering],
+    title: [Master of Science in Computer Science Engineering],
     society: [Ghent University],
     date: [2022 - 2024],
-    location: [Belgium],
+    location: [Ghent, Belgium],
     logo: "../src/logos/ugent.png",
     description: list(
       [Thesis: 	Air Drumming: Applied on-device body pose estimation],
@@ -18,9 +18,18 @@
     title: [Bachelor of Science in Computer Science (cum laude)],
     society: [Ghent University],
     date: [2019 - 2022],
-    location: [Belgium],
+    location: [Ghent, Belgium],
     logo: "../src/logos/ugent.png",
     description: list(
       [Minor: Electrotechnique & telecommunications],
     )
+)
+
+#cvEntry(
+  title: [General Secondary Education: Latin-Maths],
+  society: [College Petrus & Paulus],
+  date: [2013 - 2019],
+  location: [Ostend, Belgium],
+  logo: "../src/logos/college.png",
+  description: none,
 )

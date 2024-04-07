@@ -34,7 +34,7 @@
 
 #cvEntry(
     title: [Student Software Developer],
-    society: [PQR Corporation],
+    society: [Stampix],
     logo: "../src/logos/stampix.png",
     date: [July 2021],
     location: [Ghent, Belgium],

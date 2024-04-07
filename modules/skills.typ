@@ -14,7 +14,7 @@
 
 #cvSkill(
   type: [Tech & Others],
-  info: [Git #hBar() GitHub Actions #hBar() Typst #hBar() Linux #hBar() REST #hBar() OpenAPI #hBar() Agile]
+  info: [Git #hBar() GitHub Actions #hBar() Typst #hBar() Linux #hBar() REST #hBar() OpenAPI #hBar() Agile #hBar() Semantic Versioning]
 )
 
 #cvSkill(

@@ -10,7 +10,7 @@
     logo: "../src/logos/ugent.png",
     description: list(
       [Thesis: 	Air Drumming: Applied on-device body pose estimation],
-      [Courses: Data Quality #hBar() Big Data Technology #hBar() NoSQL Databases #hBar() Cloud Storage and Computing #hBar() Discrete Algorithms #hBar() Computer Graphics #hBar() Fundamentals of Musical Accoustics and Sonology]
+      [Courses: Data Quality #hBar() Big Data Technology #hBar() NoSQL Databases #hBar() Cloud Storage and Computing #hBar() Discrete Algorithms #hBar() Computer Graphics #hBar() Fundamentals of Musical Acoustics and Sonology]
     )
 )
 

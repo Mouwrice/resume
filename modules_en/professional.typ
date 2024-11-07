@@ -1,14 +1,29 @@
-#import "../brilliant-CV/template.typ": *
+// Imports
+#import "@preview/brilliant-cv:2.0.3": cvSection, cvEntry
 #import "@preview/fontawesome:0.1.1": *
 
 #let link-icon = super[#fa-arrow-up-right-from-square()]
+#let metadata = toml("../metadata.toml")
+#let cvSection = cvSection.with(metadata: metadata)
+#let cvEntry = cvEntry.with(metadata: metadata)
+
 
 #cvSection("Professional Experience")
 
 #cvEntry(
+  title: [Software Developer],
+  society: [Esko],
+  logo: image("../src/logos/esko.jpg"),
+  date: [September 2024 - ...],
+  location: [Ghent, Belgium],
+  description: list([Expanding and maintaining the core functionality and infrastructure of their cloud services built on AWS.]),
+  tags: ("Scala", "Java", "AWS", "ElasticSearch", "DynamoDB")
+)
+
+#cvEntry(
     title: [Software Developer Internship],
     society: [Guardsquare],
-    logo: "../src/logos/guardsquare.jpg",
+    logo: image("../src/logos/guardsquare.jpg"),
     date: [July - August 2023 ],
     location: [Leuven, Belgium],
     description: list(
@@ -23,7 +38,7 @@
 #cvEntry(
     title: [Student Software Developer],
     society: [Stampix],
-    logo: "../src/logos/stampix.png",
+    logo: image("../src/logos/stampix.png"),
     date: [July 2022],
     location: [Ghent, Belgium],
     description: list(
@@ -35,7 +50,7 @@
 #cvEntry(
     title: [Student Software Developer],
     society: [Stampix],
-    logo: "../src/logos/stampix.png",
+    logo: image("../src/logos/stampix.png"),
     date: [July 2021],
     location: [Ghent, Belgium],
     description: list(

@@ -1,12 +1,23 @@
-#import "brilliant-CV/template.typ": *
-#show: layout
+// Imports
+#import "@preview/brilliant-cv:2.0.3": cv
+#let metadata = toml("./metadata.toml")
+#let importModules(modules, lang: metadata.language) = {
+  for module in modules {
+    include {
+      "modules_" + lang + "/" + module + ".typ"
+    }
+  }
+}
 
-#cvHeader(hasPhoto: true, align: left)
-  #autoImport("about_me")
-  #autoImport("education")
-  #autoImport("professional")
-  #autoImport("projects")
-  #autoImport("certificates")
-  #pagebreak()
-  #autoImport("skills")
-#cvFooter()
+
+#show: cv.with(
+  metadata,
+  profilePhoto: image("./src/Maurice_2022_rounded.png"),
+)
+#importModules((
+  "education",
+  "professional",
+  "projects",
+  "certificates",
+  "skills",
+))
